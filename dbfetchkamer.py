@@ -11,7 +11,7 @@ def getSpecifickamer(kamerid):
 
     mycursor = con.cursor()
 
-    sql = "SELECT * FROM hotelkamer WHERE kamer_id = %s"
+    sql = "SELECT * FROM hotelkamers WHERE kamer_id = %s"
     val = (kamerid,)
     
     mycursor.execute(sql, val)
