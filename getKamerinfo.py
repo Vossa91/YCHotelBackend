@@ -11,7 +11,7 @@ def getKamerinfo(abc):
 
     mycursor = con.cursor()
 
-    mycursor.execute("SELECT * FROM hotelkamer")
+    mycursor.execute("SELECT * FROM hotelkamers")
 
     myresult = mycursor.fetchall()
 
